@@ -26,8 +26,9 @@ Este projeto foi desenvolvido durante uma aula de **introdução ao Javascript**
 - 📝 HTML5  
 - 🎨 CSS3 (com variáveis para temas)  
 - 💻 JavaScript puro com manipulação do **DOM** para controle dinâmico dos elementos da página  
+---
 
-📝 Uso
+##📝 Uso
 ✍️ Digite um item e pressione Enter ou clique para adicionar na lista.
 
 🔄 Use o filtro para visualizar todos os itens, apenas pendentes ou comprados.
@@ -38,17 +39,17 @@ Este projeto foi desenvolvido durante uma aula de **introdução ao Javascript**
 
 🔢 O contador mostra quantos itens estão na lista.
 
-📂 Estrutura do projeto
+##📂 Estrutura do projeto
 index.html: estrutura da página
 
 styles.css: estilos para layout, temas e responsividade
 
 script.js: manipulação do DOM para controle da lista e temas
 
-🔮 Próximas melhorias
+##🔮 Próximas melhorias
 💾 Persistência dos dados com LocalStorage
 
 ✏️ Edição dos itens
 
-♿ Melhorias em acessibilidade e animaçõe
+♿ Melhorias em acessibilidade e animações
 
