@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lista de Compras</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Toggle switch para tema claro/escuro -->
+   <div class="toggle-switch">
+  <input type="checkbox" id="toggle-tema" />
+  <label for="toggle-tema" class="switch-label" title="Clique para trocar o tema">
+    <span class="switch-button" id="tema-texto">☀️</span>
+  </label>
+</div>
+
+
+    <h1>Lista de Compras</h1>
+
+    <!-- Formulário para adicionar novos itens -->
+    <form id="form-adicionar">
+      <input
+        type="text"
+        id="input-item"
+        placeholder="Adicione um item..."
+        autocomplete="off"
+      />
+      <button type="submit">Adicionar</button>
+    </form>
+
+    <!-- Filtros para mostrar todos, comprados ou pendentes -->
+    <div class="filtros">
+      <label for="filtro-status">Mostrar:</label>
+      <select id="filtro-status">
+        <option value="todos" selected>Todos</option>
+        <option value="comprados">Comprados</option>
+        <option value="pendentes">Pendentes</option>
+      </select>
+    </div>
+
+    <!-- Lista de itens -->
+    <ul id="lista-itens"></ul>
+
+    <!-- Botão para limpar toda a lista -->
+    <button id="btn-limpar">Limpar Lista</button>
+
+    <!-- Contador de itens -->
+    <div id="contador-itens">Total: 0 item(ns)</div>
+  </div>
+
+  <!-- Script JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
