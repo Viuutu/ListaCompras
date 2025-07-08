@@ -53,3 +53,6 @@ script.js: manipulação do DOM para controle da lista e temas
 
 ♿ Melhorias em acessibilidade e animações
 
+![image](https://github.com/user-attachments/assets/2767264d-84e0-4e00-88bc-03b2778ac3c4)
+![image](https://github.com/user-attachments/assets/1925ff83-a280-46be-95f6-6bd525301905)
+
